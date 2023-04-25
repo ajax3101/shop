@@ -16,7 +16,7 @@ class CMSAdmin(admin.ModelAdmin):
         else:
             return f'No image!'
 
-    get_img.short_description = 'Ì³í³àòþðà'
+    get_img.short_description = 'ÐœÑ–Ð½Ñ–Ð°Ñ‚ÑŽÑ€Ð°'
 
 
 admin.site.register(CMSSlider, CMSAdmin)

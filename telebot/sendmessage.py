@@ -30,10 +30,10 @@ def sendTelegram(tg_name, tg_phone):
 
         finally:
             if req.status_code != 200:
-                print('Помилка відправки!')
+                print('РџРѕРјРёР»РєР° РІС–РґРїСЂР°РІРєРё!')
             elif req.status_code == 500:
-                print('Помилка 500')
+                print('РџРѕРјРёР»РєР° 500')
             else:
-                print('Все Ок повідомлення відправлено!')
+                print('Р’СЃРµ РћРє РїРѕРІС–РґРѕРјР»РµРЅРЅСЏ РІС–РґРїСЂР°РІР»РµРЅРѕ!')
 
 
